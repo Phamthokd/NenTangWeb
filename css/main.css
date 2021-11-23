@@ -1,0 +1,201 @@
+.header{
+    
+    width: 100%;
+    height: 56px;
+}
+.header_swap{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.header_left{
+    width: 169px;
+    height: 56px;
+    display: flex;
+   
+}
+.header_left_menu{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    padding: 8px;
+    align-items: center;
+    text-align: center;
+}
+.header_left_logo{
+    display: flex;
+    width: 120px;
+    padding: 0;
+}
+.header_center{
+    background-color: #fff;
+    flex: 1;
+    height: 40px;
+    margin-left: 140px;
+    display: flex;
+    position: relative;
+}
+.header_center_search{
+    display: flex;
+    height: 100%;
+    width: 572px;
+    border: solid 1px #cccccc;
+    align-items: center;
+    text-align: center;
+}
+.search_text{
+    width: 524px;
+    height: 24px;
+    font-size: 1.6rem;
+    align-items: center;
+    padding-left: 15px;
+    border: none;
+    outline: none;  
+}
+.search_keyboard{
+    margin: auto;
+    padding: 0 4px;
+}
+.header_center_click{
+    display: flex;
+    width: 64px;
+    height: 40px;
+    position: relative;
+}
+.header_center_click_appear:hover{
+    cursor: pointer;
+}
+.header_center_click_appear:hover .click_appear{
+    display: block;
+}
+.click_appear{
+    width: 64px;
+    height: 30px;
+    background-color: rgb(103, 121, 121);
+    position: absolute;
+    top: 63px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 2px;
+    left: 0px;
+    font-size: 1.2rem;
+    color: var(--while-color);
+    display: none;
+    animation: facein ease-in 0.2s;
+}
+.click_logo{
+    font-size: 1.6rem;
+    margin: auto;
+}
+.header_center_mic{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 30px;
+    border: none;
+    position: relative;
+}
+.mic_logo{
+    font-size: 1.6rem;
+    margin: auto;
+}
+
+.header_center_mic_appear:hover{
+    cursor: pointer;
+}
+
+.mic_appear{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(103, 121, 121);
+    position: absolute;
+    top: 63px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 2px;
+    left: -55px;
+    font-size: 1.2rem;
+    color: var(--while-color);
+    display: none;
+    animation: facein ease-in 0.2s;
+}
+.header_center_mic_appear:hover .mic_appear{
+    display: block;
+}
+
+.header_right{
+    display: flex;
+    line-height: 1rem;
+    width: 325px;
+}
+.header_right_apps{
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+    padding: 8px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.apps_logo{
+    font-weight: 100;
+}
+.apps_appear{
+    width: 138px;
+    height: 30px;
+    background-color: rgb(103, 121, 121);
+    position: absolute;
+    top: 63px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 2px;
+    left: -55px;
+    font-size: 1.2rem;
+    color: var(--while-color);
+    display: none;
+    animation: facein ease-in 0.2s;
+}
+.header_right_apps_appear:hover .apps_appear{
+    display: block;
+}
+
+.header_right_setting{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.setting_appear{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(103, 121, 121);
+    position: absolute;
+    top: 63px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 2px;
+    left: -10px;
+    font-size: 1.2rem;
+    color: var(--while-color);
+    display: none;
+    animation: facein ease-in 0.2s;
+}
+.header_right_setting_appear:hover .setting_appear{
+    display: block;
+}
+.btn_login{
+    background-color: var(--while-color);
+    color: blue;
+    font-weight: 500;
+    border: solid 0.5px blue;
+}
+.btn_login_logo{
+    border: none;
+    margin-right: 10px;
+    font-size: 2rem;
+}
